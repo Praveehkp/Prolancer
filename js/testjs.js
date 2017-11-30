@@ -25,13 +25,11 @@ app.controller('myController', function($scope,retriveJson) {
    		
 		
 
-setTimeout(function(){
 setInterval(function(){
 retriveJson.fetch().then(function(response){
 		update_chart(response)    
 	 })
-},300000)
-},300000)			
+},300000)		
    
 });
 
