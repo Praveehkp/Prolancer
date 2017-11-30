@@ -1,0 +1,58 @@
+
+@font-face {
+    font-family: myFirstFont;
+    src: url('../dashicons.ttf');
+
+}
+html,body{
+     width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+header{
+    width: 98%;
+    height: 12%;
+    text-align: center;
+    position: absolute;
+    background-color: cadetblue;
+    color: white;
+    font-size: 2vh;
+    font-family: sans-serif;
+}
+main{
+    width: 56%;
+    height: 55%;
+    /*border: 1px solid red;*/
+    padding-top: 132px;
+    margin: auto;
+    position: absolute;
+    top: 70px;    
+    left: 20%;
+}
+#bar{
+    display: block;
+    width: 539px;
+    height: 509px;
+}
+
+
+
+
+footer{
+ width: 98%;
+    height: 11%;
+    border: 1px solid red;
+       background-color: cadetblue;
+    color: white;
+    position: absolute;
+    top: 588px;
+}
+
+	
+
+
+
+
+
+

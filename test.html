@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Crypto Currencies</title>
+	<link rel="stylesheet" type="text/css" href="css/testcss.css">
+	<script type="text/javascript" src="library/jquery-3.2.1.min.js"></script>
+	<script type="text/javascript" src="library/angular.min.js"></script>
+	<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.1/Chart.js"></script> -->
+	<script src="library/Chart.js"></script>
+	<script src="library/angular-chart.min.js"></script>
+</head>
+<body ng-app="angularApp">
+<header>
+	<h1>Exchange Rate of all Crypto Currencies in USD<h1>
+</header>
+<main ng-controller="myController">
+	<canvas id="bar" class="chart chart-bar" chart-data="data" chart-labels="labels" chart-series="series">
+	</canvas>
+</main>
+<footer>
+	
+</footer>
+
+<script src="js/testjs.js"></script>
+</body>
+</html>
